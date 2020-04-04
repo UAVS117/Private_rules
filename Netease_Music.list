@@ -31,5 +31,3 @@ DOMAIN,iadmat.nosdn.127.net,no-resolve
 DOMAIN,iadmusicmat.music.126.net,no-resolve
 DOMAIN,iadmusicmatvideo.music.126.net,no-resolve
 
-# Final #
-MATCH,no-resolve
