@@ -1,1 +1,73 @@
+# 🏦 Banks (短词改为精准匹配)
+DOMAIN-SUFFIX,citi.com
+DOMAIN-SUFFIX,chase.com
+DOMAIN-SUFFIX,discover.com
+DOMAIN-SUFFIX,usbank.com
+DOMAIN-SUFFIX,td.com
+DOMAIN-SUFFIX,pnc.com
+DOMAIN-SUFFIX,usaa.com
+DOMAIN-SUFFIX,truist.com
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-SUFFIX,barclaysus.com
+DOMAIN-SUFFIX,synchrony.com
+# 名够长，保留 KEYWORD
+DOMAIN-KEYWORD,capitalone
+DOMAIN-KEYWORD,bankofamerica
+DOMAIN-KEYWORD,wellsfargo
+DOMAIN-KEYWORD,americanexpress
+DOMAIN-KEYWORD,navyfederal
+DOMAIN-KEYWORD,omtrdc
 
+# 💸 Payments
+DOMAIN-SUFFIX,cash.app
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,zellepay.com
+DOMAIN-SUFFIX,squareup.com
+DOMAIN-SUFFIX,westernunion.com
+DOMAIN-SUFFIX,xoom.com
+DOMAIN-SUFFIX,affirm.com
+DOMAIN-SUFFIX,klarna.com
+DOMAIN-SUFFIX,revolut.com
+DOMAIN-KEYWORD,paypal
+DOMAIN-KEYWORD,remitly
+
+# 📈 Investments
+DOMAIN-SUFFIX,fidelity.com
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,vanguard.com
+
+# 🛍️ Shopping
+DOMAIN-SUFFIX,target.com
+DOMAIN-SUFFIX,shop.app
+DOMAIN-SUFFIX,shopify.com
+DOMAIN-SUFFIX,myshopify.com
+DOMAIN-SUFFIX,costco.com
+DOMAIN-SUFFIX,walmart.com
+DOMAIN-SUFFIX,bestbuy.com
+DOMAIN-SUFFIX,nike.com
+DOMAIN-SUFFIX,adidas.com
+DOMAIN-SUFFIX,etsy.com
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,newegg.com
+DOMAIN-KEYWORD,amazon
+
+# 🪙 Crypto
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gemini.com
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,bitget.com
+
+# 🤖 AI & Services
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,auth0.com
