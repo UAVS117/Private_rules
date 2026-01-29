@@ -1,28 +1,75 @@
 payload:
-  # 💳 Banks & Finance
-  - DOMAIN-KEYWORD,citi
+  # 🏦 Banks (高危短词已改为精准匹配)
+  - DOMAIN-SUFFIX,citi.com          # 原 citi (防误伤 citizen, cities)
+  - DOMAIN-SUFFIX,chase.com         # 原 chase (防误伤 purchase)
+  - DOMAIN-SUFFIX,discover.com      # 原 discover (防误伤 discovery)
+  - DOMAIN-SUFFIX,usbank.com        # 原 usbank
+  - DOMAIN-SUFFIX,td.com            # 原 tdbank (TD官网是td.com)
+  - DOMAIN-SUFFIX,pnc.com
+  - DOMAIN-SUFFIX,usaa.com
+  - DOMAIN-SUFFIX,truist.com
+  - DOMAIN-SUFFIX,hsbc.com
+  - DOMAIN-SUFFIX,barclaysus.com
+  - DOMAIN-SUFFIX,synchrony.com
+  # 品牌名够长，保留 KEYWORD 即可
   - DOMAIN-KEYWORD,capitalone
-  - DOMAIN-KEYWORD,omtrdc
-  - DOMAIN-KEYWORD,usbank
-  - DOMAIN-KEYWORD,discover
-  - DOMAIN-KEYWORD,chase
   - DOMAIN-KEYWORD,bankofamerica
   - DOMAIN-KEYWORD,wellsfargo
   - DOMAIN-KEYWORD,americanexpress
-  
-  # 🛍️ Shopping
-  - DOMAIN-KEYWORD,amazon
+  - DOMAIN-KEYWORD,navyfederal
+  - DOMAIN-KEYWORD,omtrdc           # 必要的风控域名
+
+  # 💸 Payments (重灾区：Cash, Shop, Wise)
+  - DOMAIN-SUFFIX,cash.app          # ⚠️ 原 cash (极易误伤，已精准化)
+  - DOMAIN-SUFFIX,wise.com          # ⚠️ 原 wise (防误伤 otherwise)
+  - DOMAIN-SUFFIX,stripe.com        # ⚠️ 原 stripe (防误伤 striper)
+  - DOMAIN-SUFFIX,venmo.com
+  - DOMAIN-SUFFIX,zellepay.com
+  - DOMAIN-SUFFIX,squareup.com
+  - DOMAIN-SUFFIX,westernunion.com
+  - DOMAIN-SUFFIX,xoom.com
+  - DOMAIN-SUFFIX,affirm.com
+  - DOMAIN-SUFFIX,klarna.com
+  - DOMAIN-SUFFIX,revolut.com
   - DOMAIN-KEYWORD,paypal
-  # 💸 Payments
-  - DOMAIN-KEYWORD,stripe
-  - DOMAIN-KEYWORD,venmo
-  - DOMAIN-KEYWORD,zelle
-  - DOMAIN-KEYWORD,wise
+  - DOMAIN-KEYWORD,remitly
+
   # 📈 Investments
-  - DOMAIN-KEYWORD,fidelity
-  - DOMAIN-KEYWORD,schwab
-  - DOMAIN-KEYWORD,vanguard
-  # 🪙 Crypto
-  - DOMAIN-KEYWORD,coinbase
-  - DOMAIN-KEYWORD,kraken
-  - DOMAIN-KEYWORD,binance
+  - DOMAIN-SUFFIX,fidelity.com
+  - DOMAIN-SUFFIX,schwab.com
+  - DOMAIN-SUFFIX,vanguard.com
+
+  # 🛍️ Shopping (重灾区：Apple, Target, Shop)
+  - DOMAIN-SUFFIX,apple.com         # ⚠️ 原 apple (防误伤 pineapple)
+  - DOMAIN-SUFFIX,target.com        # ⚠️ 原 target (防误伤 retargeting)
+  - DOMAIN-SUFFIX,shop.app          # ⚠️ 原 shop (Shop App)
+  - DOMAIN-SUFFIX,shopify.com       # ⚠️ 原 shop (Shopify 商家)
+  - DOMAIN-SUFFIX,myshopify.com     # ⚠️ 补充：Shopify 商家后台
+  - DOMAIN-SUFFIX,costco.com
+  - DOMAIN-SUFFIX,walmart.com
+  - DOMAIN-SUFFIX,bestbuy.com
+  - DOMAIN-SUFFIX,nike.com
+  - DOMAIN-SUFFIX,adidas.com
+  - DOMAIN-SUFFIX,etsy.com
+  - DOMAIN-SUFFIX,ebay.com
+  - DOMAIN-SUFFIX,newegg.com
+  - DOMAIN-KEYWORD,amazon
+
+  # 🪙 Crypto (重灾区：Gate)
+  - DOMAIN-SUFFIX,gate.io           # ⚠️ 原 gate (极易误伤，已精准化)
+  - DOMAIN-SUFFIX,gemini.com        # ⚠️ 原 gemini (星座运势网站常撞车)
+  - DOMAIN-SUFFIX,coinbase.com
+  - DOMAIN-SUFFIX,kraken.com
+  - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,kucoin.com
+  - DOMAIN-SUFFIX,bitget.com
+
+  # 🤖 AI & Services
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,sentry.io         # 原 sentry
+  - DOMAIN-SUFFIX,auth0.com         # 原 auth0
