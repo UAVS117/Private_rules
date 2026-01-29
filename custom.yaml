@@ -1,1 +1,28 @@
-
+payload:
+  # 💳 Banks & Finance
+  - DOMAIN-KEYWORD,citi
+  - DOMAIN-KEYWORD,capitalone
+  - DOMAIN-KEYWORD,omtrdc
+  - DOMAIN-KEYWORD,usbank
+  - DOMAIN-KEYWORD,discover
+  - DOMAIN-KEYWORD,chase
+  - DOMAIN-KEYWORD,bankofamerica
+  - DOMAIN-KEYWORD,wellsfargo
+  - DOMAIN-KEYWORD,americanexpress
+  
+  # 🛍️ Shopping
+  - DOMAIN-KEYWORD,amazon
+  - DOMAIN-KEYWORD,paypal
+  # 💸 Payments
+  - DOMAIN-KEYWORD,stripe
+  - DOMAIN-KEYWORD,venmo
+  - DOMAIN-KEYWORD,zelle
+  - DOMAIN-KEYWORD,wise
+  # 📈 Investments
+  - DOMAIN-KEYWORD,fidelity
+  - DOMAIN-KEYWORD,schwab
+  - DOMAIN-KEYWORD,vanguard
+  # 🪙 Crypto
+  - DOMAIN-KEYWORD,coinbase
+  - DOMAIN-KEYWORD,kraken
+  - DOMAIN-KEYWORD,binance
