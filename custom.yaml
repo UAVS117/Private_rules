@@ -1,17 +1,17 @@
 payload:
-  # 🏦 Banks (高危短词已改为精准匹配)
-  - DOMAIN-SUFFIX,citi.com          # 原 citi (防误伤 citizen, cities)
-  - DOMAIN-SUFFIX,chase.com         # 原 chase (防误伤 purchase)
-  - DOMAIN-SUFFIX,discover.com      # 原 discover (防误伤 discovery)
-  - DOMAIN-SUFFIX,usbank.com        # 原 usbank
-  - DOMAIN-SUFFIX,td.com            # 原 tdbank (TD官网是td.com)
+  # 🏦 Banks (短词改为精准匹配)
+  - DOMAIN-SUFFIX,citi.com          #  citi (防误伤 citizen, cities)
+  - DOMAIN-SUFFIX,chase.com         #  chase (防误伤 purchase)
+  - DOMAIN-SUFFIX,discover.com      #  discover (防误伤 discovery)
+  - DOMAIN-SUFFIX,usbank.com        #  usbank
+  - DOMAIN-SUFFIX,td.com            #  tdbank (TD官网是td.com)
   - DOMAIN-SUFFIX,pnc.com
   - DOMAIN-SUFFIX,usaa.com
   - DOMAIN-SUFFIX,truist.com
   - DOMAIN-SUFFIX,hsbc.com
   - DOMAIN-SUFFIX,barclaysus.com
   - DOMAIN-SUFFIX,synchrony.com
-  # 品牌名够长，保留 KEYWORD 即可
+  # 名够长，保留 KEYWORD
   - DOMAIN-KEYWORD,capitalone
   - DOMAIN-KEYWORD,bankofamerica
   - DOMAIN-KEYWORD,wellsfargo
@@ -19,10 +19,10 @@ payload:
   - DOMAIN-KEYWORD,navyfederal
   - DOMAIN-KEYWORD,omtrdc           # 必要的风控域名
 
-  # 💸 Payments (重灾区：Cash, Shop, Wise)
-  - DOMAIN-SUFFIX,cash.app          # ⚠️ 原 cash (极易误伤，已精准化)
-  - DOMAIN-SUFFIX,wise.com          # ⚠️ 原 wise (防误伤 otherwise)
-  - DOMAIN-SUFFIX,stripe.com        # ⚠️ 原 stripe (防误伤 striper)
+  # 💸 Payments
+  - DOMAIN-SUFFIX,cash.app          # ⚠️  cash (极易误伤，已精准化)
+  - DOMAIN-SUFFIX,wise.com          # ⚠️  wise (防误伤 otherwise)
+  - DOMAIN-SUFFIX,stripe.com        # ⚠️  stripe (防误伤 striper)
   - DOMAIN-SUFFIX,venmo.com
   - DOMAIN-SUFFIX,zellepay.com
   - DOMAIN-SUFFIX,squareup.com
@@ -39,11 +39,10 @@ payload:
   - DOMAIN-SUFFIX,schwab.com
   - DOMAIN-SUFFIX,vanguard.com
 
-  # 🛍️ Shopping (重灾区：Apple, Target, Shop)
-  - DOMAIN-SUFFIX,apple.com         # ⚠️ 原 apple (防误伤 pineapple)
-  - DOMAIN-SUFFIX,target.com        # ⚠️ 原 target (防误伤 retargeting)
-  - DOMAIN-SUFFIX,shop.app          # ⚠️ 原 shop (Shop App)
-  - DOMAIN-SUFFIX,shopify.com       # ⚠️ 原 shop (Shopify 商家)
+  # 🛍️ Shopping
+  - DOMAIN-SUFFIX,target.com        # ⚠️  target (防误伤 retargeting)
+  - DOMAIN-SUFFIX,shop.app          # ⚠️  shop (Shop App)
+  - DOMAIN-SUFFIX,shopify.com       # ⚠️  shop (Shopify 商家)
   - DOMAIN-SUFFIX,myshopify.com     # ⚠️ 补充：Shopify 商家后台
   - DOMAIN-SUFFIX,costco.com
   - DOMAIN-SUFFIX,walmart.com
@@ -55,9 +54,9 @@ payload:
   - DOMAIN-SUFFIX,newegg.com
   - DOMAIN-KEYWORD,amazon
 
-  # 🪙 Crypto (重灾区：Gate)
-  - DOMAIN-SUFFIX,gate.io           # ⚠️ 原 gate (极易误伤，已精准化)
-  - DOMAIN-SUFFIX,gemini.com        # ⚠️ 原 gemini (星座运势网站常撞车)
+  # 🪙 Crypto
+  - DOMAIN-SUFFIX,gate.io           # ⚠️  gate (极易误伤，已精准化)
+  - DOMAIN-SUFFIX,gemini.com        # ⚠️  gemini (星座运势网站常撞车)
   - DOMAIN-SUFFIX,coinbase.com
   - DOMAIN-SUFFIX,kraken.com
   - DOMAIN-SUFFIX,binance.com
