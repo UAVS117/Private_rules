@@ -9,6 +9,7 @@ payload:
   - DOMAIN-SUFFIX,usaa.com
   - DOMAIN-SUFFIX,truist.com
   - DOMAIN-SUFFIX,hsbc.com
+  - DOMAIN-SUFFIX,sofi.com
   - DOMAIN-SUFFIX,barclaysus.com
   - DOMAIN-SUFFIX,synchrony.com
   # 名够长，保留 KEYWORD
@@ -38,6 +39,9 @@ payload:
   - DOMAIN-SUFFIX,fidelity.com
   - DOMAIN-SUFFIX,schwab.com
   - DOMAIN-SUFFIX,vanguard.com
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,moomoo.com
 
   # 🛍️ Shopping
   - DOMAIN-SUFFIX,target.com        # ⚠️  target (防误伤 retargeting)
