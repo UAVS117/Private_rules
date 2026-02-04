@@ -64,10 +64,3 @@ DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,kucoin.com
 DOMAIN-SUFFIX,bitget.com
 
-# 🤖 AI & Services
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,auth0.com
